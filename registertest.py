@@ -1,10 +1,13 @@
-# register test
+# if statments
+# else do that
 
-age = int(input("What is your age? Enter a number: "))
+age = int(input("Enter your age: "))
 
-if age >= 18:
-    print("You are able to register!")
-elif age < 18:
-    print("You are too young.")
+if age >= 100:
+    print("You are too old to sign up.")
+elif age < 0:
+    print("You haven't been born yet!")
+elif age >= 18:
+    print("You are now signed up!")
 else:
-    print("????")
+    print("You must be 18+ to sign up.")
